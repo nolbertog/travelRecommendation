@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plataforma de Recomendación de Viajes</title>
+  <link rel="stylesheet" href="./travel_recommendation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">
+      <img src="./Img/pngwing.com.png" alt="Logo de la empresa">
+      <span class="nav-title">TravelBloom</span>
+    </div>
+    <ul>
+      <li><a href="./travel_recommendation.html">Inicio</a></li>
+      <li><a href="./acerca_de_nosotros.html">Acerca de nosotros</a></li>
+      <li><a href="./contact_us.html">Contáctenos</a></li>
+    </ul>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Buscar destinos...">
+      <button id="btnSearch">Buscar</button>
+      <button id="btnClear"">Clear</button>
+    </div>
+  </nav>
+  
+
+  <section class="main-content">
+    <div class="background-image"></div>
+    <div class="content">
+      <h1>EXPLORE <br> DREAM <br>DESTINATION</h1>
+      <p>Promovemos la exploración cultural a través <br> de nuestras recomendaciones de viaje. <br> Descubre lugares increíbles y experiencias únicas.</p>
+      <button>BOOK NOW</button>
+    </div>
+  </section>
+
+  <div id="result"></div> 
+
+  <footer>
+    <ul class="social-links">
+      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+    </ul>
+  </footer>
+
+  <script src="./travel_recommendation.js"></script>
+</body>
+</html>

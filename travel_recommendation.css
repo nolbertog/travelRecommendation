@@ -1,0 +1,242 @@
+/* Reset de estilos */
+body {
+    background: linear-gradient(to right, rgba(28,81,90, 0.8), rgba(0, 0, 0, 0)), url('./Img/ciudad.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(42,47,47);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .nav-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-logo img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+  }
+  
+  .nav-title {
+    color: white;
+    font-size: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    background-color: rgb(12,94,96);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .search-bar button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  
+  .main-content {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  
+  .content {
+    padding: 20px;
+   
+    
+  }
+  
+  .content h1 {
+    font-size: 54px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+  }
+  
+  .content p {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: left;
+    margin-left: 40px;
+    height: 100px;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    
+    
+  }
+  
+  .content button {
+    padding: 10px 20px;
+    background-color: rgb(13,105,111);
+    color: white;
+    border: none;
+    position: relative;
+    left: -10px;
+}
+.contenido{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 100px;
+    height: 35%;
+    width: 80%;
+    border-radius: 10px;
+}
+.container {
+    
+    padding: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: calc(10% - 5px);
+    margin-left: 120px; 
+    margin-top: 100px;
+    
+}
+
+
+.container h1{
+    color: white;
+    font-size: 50px;
+    
+}
+.container h2{
+    color: white;
+    font-size:  15px;
+}
+.container p{
+    font-size: 12px;
+    color: white;
+    font-family: "Courier New", monospace;
+    width: 100px;;
+}
+.container button{
+    background-color: rgb(35,61,119);
+    height: 20px;
+    width: 100px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+  .footer {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .social-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .social-links li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .social-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  .contacto{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 80%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .contacto h1{
+    color: white;
+    font-size: 54px;
+  }
+  .contacto h4{
+    color: white;
+  }
+  .form{
+        background-color: (0,0,0,0.5);
+        width: 50%; /* Ajusta el ancho del formulario */
+        padding: 20px;
+        border-radius: 10px;
+        color: white;
+        margin-left: 450px;
+       
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border:1px solid white;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0,0.0);
+        
+    }
+#result {
+  background-color: aliceblue;
+}
+    
+#result img {
+  width: 350px;
+  height: auto;
+}
+
+   
+  
